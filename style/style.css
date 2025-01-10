@@ -68,3 +68,44 @@ body {
   border: none;
 }
 /* banner section end */
+
+/* Pillars of "Bangladesh 2.0" section start */
+.pillars-container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.pillars-container .pillars-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+.pillars-content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.pillars-content .pillars-box {
+  height: 250px;
+  width: 250ox;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.pillars-box h2 {
+  color: rgba(13.81, 13.81, 13.81, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.pillars-box p {
+  color: rgba(13.81, 13.81, 13.81, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+/* Pillars of "Bangladesh 2.0" section end */
