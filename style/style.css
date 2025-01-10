@@ -72,14 +72,14 @@ body {
 /* Pillars of "Bangladesh 2.0" section start */
 .pillars-container {
   width: 90%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .pillars-container .pillars-title {
   color: #0e0e0e;
   font-size: 40px;
   font-weight: 700;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .pillars-content {
   margin-top: 30px;
@@ -95,6 +95,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   border: 2px solid white;
+  margin-top: 30px;
 }
 .pillars-box h2 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
@@ -109,3 +110,94 @@ body {
   margin-top: 20px;
 }
 /* Pillars of "Bangladesh 2.0" section end */
+
+/* The Vision of Future start  */
+.vision-container {
+  width: 90%;
+  margin: 80px auto;
+}
+
+.vision-container h1 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.vision-container p {
+  color: rgba(13.81, 13.81, 13.81, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 24px;
+}
+.vision-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.vision-future-box {
+  height: 250px;
+  width: 250ox;
+  background-color: #d5e1f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.vision-content .box-bg2 {
+  background-color: #c6e4d6;
+}
+.vision-content .box-bg3 {
+  background-color: #f7ebcf;
+}
+.vision-future-box h2 {
+  color: rgba(13.81, 13.81, 13.81, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.vision-future-box .vision-text {
+  color: rgba(13.81, 13.81, 13.81, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.vision-future-box .btn-vision {
+  color: white;
+  font-size: 16px;
+  font-family: Fira Sans;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #71affa;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.vision-future-box .btn-vision-2 {
+  background-color: #09a15c;
+}
+
+.vision-future-box .btn-vision-3 {
+  background-color: #ffc239;
+}
+/* The Vision of Future end */
+
+/* Recent news section start */
+.recent-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.recent-container h1 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+.recent-container p {
+  color: rgba(13.81, 13.81, 13.81, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+}
+/*Recent news section end*/
