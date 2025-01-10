@@ -11,7 +11,7 @@ body {
 /* nav section start */
 .navbar {
   width: 90%;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -263,7 +263,82 @@ body {
   border: none;
   margin-top: 20px;
 }
+/* Recent news section end */
 
-/*Recent news section revers start*/
-/*Recent news section revers end*/
-/*Recent news section end*/
+/*Donate section start */
+.donate-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.donate-container h1 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+.donate-container p {
+  color: rgba(13.81, 13.81, 13.81, 0.7);
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.donate-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.donate-content .donate {
+  height: 120px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.donate-content .donate p {
+  color: rgba(13.81, 13.81, 13.81, 0.8);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+}
+.donate-content .bg-200 {
+  background-color: #c6e4d6;
+}
+.donate-container .input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.donate-container .input {
+  background-color: white;
+  height: 60px;
+  width: 80%;
+  text-align: center;
+  color: rgba(13.81, 13.81, 13.81, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+
+.donate-container .input-div .btn-done {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  background-color: #006a50;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+}
+/* Donate section end */
