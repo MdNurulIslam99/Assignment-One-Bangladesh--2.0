@@ -349,6 +349,7 @@ body {
 }
 .donate-content .bg-200 {
   background-color: #c6e4d6;
+  border: 5px solid #c6e4d6;
 }
 .donate-container .input-div {
   display: flex;
