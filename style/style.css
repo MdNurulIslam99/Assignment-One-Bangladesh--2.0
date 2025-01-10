@@ -31,6 +31,10 @@ body {
   border: 2px solid #006a50;
   border-radius: 5px;
 }
+.nav-btn .btn-1:hover {
+  background-color: #71affa;
+  color: #0e0e0e;
+}
 /* nav section end */
 
 /* banner section start */
@@ -66,6 +70,10 @@ body {
   padding: 25px;
   border-radius: 10px;
   border: none;
+}
+.banner-btn .btn-2:hover {
+  color: rgb(224, 15, 15);
+  background-color: #6a0065;
 }
 /* banner section end */
 
@@ -110,43 +118,6 @@ body {
   margin-top: 20px;
 }
 /* Pillars of "Bangladesh 2.0" section end */
-
-/* Dr. Muhammad Yunus section start */
-.text-container {
-  width: 90%;
-  height: 250px;
-  margin: 50px auto;
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 10px;
-}
-.text-container .text-content {
-  background-image: url("/assets/quote-bg.png");
-  background-repeat: no-repeat;
-  margin-left: 20px;
-}
-.text-container .text-info {
-  color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 20px;
-  padding: 25px 0px 0px 1px;
-}
-.text-container .text-owner {
-  color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 10px;
-}
-.text-container .text-deg {
-  color: rgba(13.81, 13.81, 13.81, 0.6);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 10px;
-}
-/* Dr. Muhammad Yunus section end */
 
 /* The Vision of Future start  */
 .vision-container {
@@ -210,14 +181,114 @@ body {
   border-radius: 10px;
   margin-top: 20px;
 }
+
+.vision-future-box .btn-vision:hover {
+  background-color: #5d09a1;
+}
 .vision-future-box .btn-vision-2 {
   background-color: #09a15c;
+}
+.vision-future-box .btn-vision-2:hover {
+  background-color: #ffc239;
 }
 
 .vision-future-box .btn-vision-3 {
   background-color: #ffc239;
 }
+.vision-future-box .btn-vision-3:hover {
+  background-color: #09a15c;
+}
 /* The Vision of Future end */
+
+/* Dr. Muhammad Yunus section start */
+.text-container {
+  width: 90%;
+  height: 250px;
+  margin: 50px auto;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.text-container .text-content {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+.text-container .text-info {
+  color: rgba(13.81, 13.81, 13.81, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+  padding: 25px 0px 0px 1px;
+}
+.text-container .text-owner {
+  color: rgba(13.81, 13.81, 13.81, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.text-container .text-deg {
+  color: rgba(13.81, 13.81, 13.81, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+}
+/* Dr. Muhammad Yunus section end */
+
+/* Opinion section Start */
+.opinion-container {
+  width: 90%;
+  margin: 0px auto;
+}
+.opinion-container .opinion-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+.opinion-container .opinion-content {
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid white;
+  margin-top: 30px;
+  padding: 20px;
+}
+.opinion-container .opinion-sub-title {
+  background-color: #c6e4d6;
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.opinion-container .opinion-sub-title p {
+  color: #0e0e0e;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+}
+.opinion-content .opinion-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 0.5px solid rgb(221, 218, 218);
+}
+.opinion-content .opinion-info .btn-primary {
+  color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: #c6e4d6;
+  border-radius: 5px;
+}
+.opinion-content .opinion-info .btn-div {
+}
+
+/* Opinion section end */
 
 /* Recent news section start */
 .recent-container {
@@ -300,6 +371,12 @@ body {
   border: none;
   margin-top: 20px;
 }
+
+.recent-content .recent-right .recent-btn:hover {
+  background-color: yellowgreen;
+  color: red;
+  font-size: larger;
+}
 /* Recent news section end */
 
 /*Donate section start */
@@ -341,6 +418,20 @@ body {
   align-items: center;
   margin-top: 30px;
 }
+.donate-content .bg-100:hover {
+  background-color: tomato;
+  border: 5px solid greenyellow;
+}
+
+.donate-content .bg-500:hover {
+  background-color: rgb(66, 66, 175);
+  border: 5px solid greenyellow;
+}
+
+.donate-content .bg-1000:hover {
+  background-color: aqua;
+  border: 5px solid rgb(47, 255, 109);
+}
 .donate-content .donate p {
   color: rgba(13.81, 13.81, 13.81, 0.8);
   font-size: 25px;
@@ -350,6 +441,11 @@ body {
 .donate-content .bg-200 {
   background-color: #c6e4d6;
   border: 5px solid #c6e4d6;
+}
+
+.donate-content .bg-200:hover {
+  background-color: yellowgreen;
+  border: 5px solid black;
 }
 .donate-container .input-div {
   display: flex;
@@ -378,6 +474,10 @@ body {
   border-radius: 10px;
   border: none;
   margin-top: 30px;
+}
+.donate-container .input-div .btn-done:hover {
+  background-color: aquamarine;
+  color: white;
 }
 /* Donate section end */
 
@@ -443,6 +543,11 @@ body {
   padding-right: 50px;
   padding-left: 50px;
   border-radius: 0px 10px 10px 0px;
+}
+
+.subscribe-box .subscribe-btn:hover {
+  background-color: aqua;
+  color: red;
 }
 /* Subscribe Newsletter  end */
 
