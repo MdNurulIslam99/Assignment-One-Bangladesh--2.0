@@ -48,6 +48,10 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+.banner-container:hover {
+  background-color: rgba(153, 205, 50, 0.781);
+}
 .banner-container .banner-content h3 {
   color: rgba(13.81, 13.81, 13.81, 0.5);
   font-size: 20px;
@@ -72,8 +76,8 @@ body {
   border: none;
 }
 .banner-btn .btn-2:hover {
-  color: rgb(224, 15, 15);
-  background-color: #6a0065;
+  color: black;
+  background-color: #2285ac;
 }
 /* banner section end */
 
