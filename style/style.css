@@ -168,10 +168,10 @@ body {
   gap: 30px;
 }
 .vision-future-box {
-  height: 280px;
-  width: 280ox;
+  height: 290px;
+  width: 290ox;
   background-color: #d5e1f5;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   margin-top: 30px;
 }
@@ -216,7 +216,7 @@ body {
   background-color: #71affa;
   border: none;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .vision-future-box .btn-vision:hover {
@@ -250,7 +250,7 @@ body {
   border-radius: 10px;
 }
 .text-container .text-content {
-  background-image: url("/assets/quote-bg.png");
+  background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
   margin-left: 20px;
 }
