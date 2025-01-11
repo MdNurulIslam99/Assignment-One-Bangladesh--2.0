@@ -10,7 +10,7 @@ body {
 
 /* nav section start */
 .navbar {
-  width: 90%;
+  width: 80%;
   margin: 30px auto;
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,7 @@ body {
 
 /* banner section start */
 .banner-container {
-  width: 90%;
+  width: 80%;
   height: 600px;
   margin: 50px auto;
   background-color: #c6e4d6;
@@ -83,7 +83,7 @@ body {
 
 /* Pillars of "Bangladesh 2.0" section start */
 .pillars-container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -101,8 +101,8 @@ body {
   gap: 30px;
 }
 .pillars-content .pillars-box {
-  height: 250px;
-  width: 250ox;
+  height: 270px;
+  width: 250px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -111,18 +111,22 @@ body {
 }
 .box-type-1:hover {
   background-color: tomato;
+  border: 2px solid black;
 }
 
 .box-type-2:hover {
   background-color: yellowgreen;
+  border: 2px solid black;
 }
 
 .box-type-3:hover {
   background-color: rgb(163, 206, 206);
+  border: 2px solid black;
 }
 
 .box-type-4:hover {
   background-color: aquamarine;
+  border: 2px solid black;
 }
 .pillars-box h2 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
@@ -140,7 +144,7 @@ body {
 
 /* The Vision of Future start  */
 .vision-container {
-  width: 90%;
+  width: 80%;
   margin: 80px auto;
 }
 
@@ -164,8 +168,8 @@ body {
   gap: 30px;
 }
 .vision-future-box {
-  height: 250px;
-  width: 250ox;
+  height: 280px;
+  width: 280ox;
   background-color: #d5e1f5;
   padding: 20px;
   border-radius: 10px;
@@ -173,6 +177,7 @@ body {
 }
 .vision-future-box:hover {
   background-color: #5c9c7e;
+  border: 2px solid black;
 }
 .vision-content .box-bg2 {
   background-color: #c6e4d6;
@@ -180,6 +185,7 @@ body {
 
 .vision-content .box-bg2:hover {
   background-color: #728cb9;
+  border: 2px solid black;
 }
 .vision-content .box-bg3 {
   background-color: #f7ebcf;
@@ -187,6 +193,7 @@ body {
 
 .vision-content .box-bg3:hover {
   background-color: yellowgreen;
+  border: 2px solid black;
 }
 .vision-future-box h2 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
@@ -214,12 +221,14 @@ body {
 
 .vision-future-box .btn-vision:hover {
   background-color: #5d09a1;
+  border: 2px solid black;
 }
 .vision-future-box .btn-vision-2 {
   background-color: #09a15c;
 }
 .vision-future-box .btn-vision-2:hover {
   background-color: #b48516;
+  border: 2px solid black;
 }
 
 .vision-future-box .btn-vision-3 {
@@ -227,12 +236,13 @@ body {
 }
 .vision-future-box .btn-vision-3:hover {
   background-color: #09a15c;
+  border: 2px solid black;
 }
 /* The Vision of Future end */
 
 /* Dr. Muhammad Yunus section start */
 .text-container {
-  width: 90%;
+  width: 80%;
   height: 250px;
   margin: 50px auto;
   background-color: white;
@@ -269,7 +279,7 @@ body {
 
 /* Opinion section Start */
 .opinion-container {
-  width: 90%;
+  width: 80%;
   margin: 0px auto;
 }
 .opinion-container .opinion-title {
@@ -285,6 +295,10 @@ body {
   margin-top: 30px;
   padding: 20px;
 }
+.opinion-container .opinion-content:hover {
+  background-color: aqua;
+  border: 2px solid black;
+}
 .opinion-container .opinion-sub-title {
   background-color: #c6e4d6;
   padding: 15px;
@@ -293,6 +307,11 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+}
+
+.opinion-container .opinion-sub-title:hover {
+  background-color: aquamarine;
+  border: 2px solid black;
 }
 .opinion-container .opinion-sub-title p {
   color: #0e0e0e;
@@ -325,9 +344,14 @@ td {
   justify-content: center;
   align-items: center;
   background-color: #c6e4d6;
-  border: 1px solid rgb(24, 23, 23);
+  border: none;
   width: 70%;
   border-radius: 5px;
+  border: 1px solid rgb(24, 23, 23);
+}
+
+.opinion-content .btn-table1:hover {
+  background-color: yellowgreen;
 }
 
 .opinion-content .btn-table1 p {
@@ -338,12 +362,16 @@ td {
   background-color: #c6e4d6;
   border-radius: 5px;
 }
+.opinion-content .btn-table1 p:hover {
+  background-color: yellowgreen;
+  /* border: 1px solid rgb(24, 23, 23); */
+}
 
 /* Opinion section end */
 
 /* Recent news section start */
 .recent-container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .recent-container h1 {
@@ -374,6 +402,7 @@ td {
 
 .recent-content:hover {
   background-color: rgb(173, 209, 214);
+  border: 2px solid black;
 }
 
 .recent-content .recent-left img {
@@ -436,7 +465,7 @@ td {
 
 /*Donate section start */
 .donate-container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .donate-container h1 {
@@ -538,7 +567,7 @@ td {
 
 /* Subscribe Newsletter start */
 .subscribe-container {
-  width: 90%;
+  width: 80%;
   height: 380px;
   margin: 80px auto;
   background-color: #c6e4d6;
@@ -552,6 +581,7 @@ td {
 
 .subscribe-container:hover {
   background-color: #8bce9c;
+  border: 2px solid black;
 }
 .subscribe-container h1 {
   color: #0e0e0e;
