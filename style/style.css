@@ -105,6 +105,21 @@ body {
   border: 5px solid white;
   margin-top: 30px;
 }
+.box-type-1:hover {
+  background-color: tomato;
+}
+
+.box-type-2:hover {
+  background-color: yellowgreen;
+}
+
+.box-type-3:hover {
+  background-color: rgb(163, 206, 206);
+}
+
+.box-type-4:hover {
+  background-color: aquamarine;
+}
 .pillars-box h2 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
   font-size: 20px;
@@ -152,11 +167,22 @@ body {
   border-radius: 10px;
   margin-top: 30px;
 }
+.vision-future-box:hover {
+  background-color: #5c9c7e;
+}
 .vision-content .box-bg2 {
   background-color: #c6e4d6;
 }
+
+.vision-content .box-bg2:hover {
+  background-color: #728cb9;
+}
 .vision-content .box-bg3 {
   background-color: #f7ebcf;
+}
+
+.vision-content .box-bg3:hover {
+  background-color: yellowgreen;
 }
 .vision-future-box h2 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
@@ -189,7 +215,7 @@ body {
   background-color: #09a15c;
 }
 .vision-future-box .btn-vision-2:hover {
-  background-color: #ffc239;
+  background-color: #b48516;
 }
 
 .vision-future-box .btn-vision-3 {
@@ -340,6 +366,10 @@ td {
   border-radius: 10px;
   border: 5px solid white;
   padding: 50px;
+}
+
+.recent-content:hover {
+  background-color: rgb(173, 209, 214);
 }
 
 .recent-content .recent-left img {
@@ -514,6 +544,10 @@ td {
   align-items: center;
   gap: 10px;
   flex-direction: column;
+}
+
+.subscribe-container:hover {
+  background-color: #8bce9c;
 }
 .subscribe-container h1 {
   color: #0e0e0e;
