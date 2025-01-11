@@ -270,22 +270,43 @@ body {
   font-weight: 600;
   padding: 5px;
 }
-.opinion-content .opinion-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  border: 0.5px solid rgb(221, 218, 218);
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
-.opinion-content .opinion-info .btn-primary {
-  color: #0e0e0e;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 10px 20px;
+.tbody {
+  width: 100%;
+}
+td {
+  border: 1px solid rgb(211, 208, 208);
+  padding: 10px 10px;
+}
+.opinion-content .select-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opinion-content .btn-table1,
+.btn-table2,
+.btn-table3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #c6e4d6;
+  border: 1px solid rgb(24, 23, 23);
+  width: 70%;
   border-radius: 5px;
 }
-.opinion-content .opinion-info .btn-div {
+
+.opinion-content .btn-table1 p {
+  color: #0e0e0e;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 10px;
+  background-color: #c6e4d6;
+  border-radius: 5px;
 }
 
 /* Opinion section end */
@@ -440,7 +461,7 @@ body {
 }
 .donate-content .bg-200 {
   background-color: #c6e4d6;
-  border: 5px solid #c6e4d6;
+  border: 3px solid #c6e4d6;
 }
 
 .donate-content .bg-200:hover {
