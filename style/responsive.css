@@ -1,0 +1,228 @@
+@media screen and (max-width: 576px) {
+  .navbar,
+  .banner-container,
+  .pillars-content,
+  .vision-content,
+  .recent-content,
+  .span,
+  .donate-content {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .banner-container .banner-content h3 {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  .banner-container .banner-content p {
+    font-size: 2rem;
+  }
+  .banner-btn .btn-2 {
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .banner-img img {
+    height: 250px;
+    width: 200px;
+  }
+
+  .pillars-title,
+  .vision-container {
+    text-align: center;
+  }
+  .pillars-content .pillars-box {
+    margin-left: 50px;
+  }
+  .vision-future-box {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 50px;
+  }
+
+  .text-container {
+    width: 80%;
+    height: 550px;
+    margin: 10px auto;
+  }
+
+  .opinion-container {
+    /* display: contents; */
+    display: none;
+  }
+  .recent-container {
+    text-align: center;
+  }
+  .recent-content {
+    margin-right: 100px;
+    padding: 30px;
+  }
+  .img > img {
+    width: 280px;
+  }
+  .recent-content .recent-right h1 {
+    font-size: 1.3rem;
+    top: 5px;
+  }
+  .recent-right img {
+    width: 280px;
+  }
+
+  .donate-container,
+  .subscribe-container {
+    text-align: center;
+  }
+  .donate-content {
+    margin-left: 35px;
+  }
+
+  .subscribe-container {
+    height: 450px;
+  }
+
+  .footer-container {
+    margin-top: 50px;
+  }
+
+  .subscribe-box input {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .subscribe-box .subscribe-btn {
+    padding: 18px 0;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+}
+
+/* medium device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .navbar,
+  .banner-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .pillars-container,
+  .vision-container,
+  .recent-container {
+    padding: 20px;
+    text-align: center;
+  }
+  .pillars-content .pillars-box {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .vision-content,
+  .recent-content,
+  .span,
+  .donate-content {
+    width: 90%;
+    flex-direction: column;
+  }
+  .vision-container {
+    margin-top: 30px;
+  }
+  .vision-content {
+    margin-left: 30px;
+  }
+  .text-container {
+    height: 300px;
+  }
+
+  .opinion-container {
+    display: contents;
+  }
+
+  .opinion-content {
+    width: 75%;
+    padding: 30px;
+    margin: 0px auto;
+  }
+
+  .opinion-container .opinion-title {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .recent-right {
+    align-items: center;
+    justify-items: center;
+  }
+  .recent-container h1 {
+    margin-left: 70px;
+  }
+}
+
+/* large device */
+@media screen and (min-width: 992px) {
+  .navbar,
+  .banner-container {
+    width: 85%;
+    padding: 20px;
+  }
+  .pillars-container,
+  .vision-container,
+  .recent-container {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .pillars-content .pillars-box {
+    height: 400px;
+    width: 350px;
+    padding: 30px;
+    margin-top: 10px;
+  }
+  .vision-container {
+    margin-top: 20px;
+  }
+
+  .vision-future-box {
+    height: 330px;
+    width: 320px;
+    padding: 35px;
+  }
+
+  .vision-future-box .btn-vision-1 {
+    margin-top: 20px;
+  }
+  .vision-future-box .btn-vision-2 {
+    margin-top: 65px;
+  }
+
+  .recent-container {
+    margin-top: 30px;
+  }
+
+  .recent-container h1 {
+    margin-top: 30px;
+  }
+
+  .recent-content .recent-right img {
+    margin-top: 80px;
+  }
+
+  .recent-content .recent-right h1 {
+    font-size: 1.5rem;
+  }
+
+  .recent-content .recent-right p {
+    font-size: 0.8rem;
+  }
+
+  .recent-content .recent-right .recent-btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .donate-content .donate p {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+}

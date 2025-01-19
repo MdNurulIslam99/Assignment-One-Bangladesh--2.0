@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+.hidden {
+  display: none;
+}
 body {
   font-family: "Fira Sans", serif;
   background-color: #f5f5f5;
@@ -18,13 +22,13 @@ body {
 }
 .navbar .nav-logo {
   color: #0e0e0e;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 700;
   padding: 20px;
 }
 .nav-btn .btn-1 {
   color: #006a50;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 600;
   background-color: white;
   padding: 15px 20px;
@@ -55,21 +59,21 @@ body {
 }
 .banner-container .banner-content h3 {
   color: rgba(13.81, 13.81, 13.81, 0.5);
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 500;
   padding: 10px;
 }
 
 .banner-container .banner-content p {
   color: #0e0e0e;
-  font-size: 56px;
+  font-size: 3.3rem;
   font-weight: 700;
   padding: 10px;
 }
 
 .banner-btn .btn-2 {
   color: white;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 600;
   background-color: #006a50;
   padding: 25px;
@@ -91,7 +95,7 @@ body {
 
 .pillars-container .pillars-title {
   color: #0e0e0e;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-top: 80px;
 }
@@ -133,13 +137,13 @@ body {
 }
 .pillars-box h2 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 700;
   margin-top: 20px;
 }
 .pillars-box p {
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   margin-top: 20px;
 }
@@ -153,13 +157,13 @@ body {
 
 .vision-container h1 {
   color: #0e0e0e;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-top: 50px;
 }
 .vision-container p {
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 20px;
   margin-top: 24px;
@@ -172,7 +176,7 @@ body {
 }
 .vision-future-box {
   height: 290px;
-  width: 290ox;
+  width: 290px;
   background-color: #d5e1f5;
   padding: 30px;
   border-radius: 10px;
@@ -200,19 +204,19 @@ body {
 }
 .vision-future-box h2 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 700;
   margin-top: 20px;
 }
 .vision-future-box .vision-text {
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
 }
 .vision-future-box .btn-vision {
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Fira Sans;
   font-weight: 600;
   padding: 10px 20px;
@@ -259,21 +263,20 @@ body {
 }
 .text-container .text-info {
   color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 400;
-  line-height: 24px;
   margin-top: 20px;
   padding: 25px 0px 0px 1px;
 }
 .text-container .text-owner {
   color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-top: 10px;
 }
 .text-container .text-deg {
   color: rgba(13.81, 13.81, 13.81, 0.6);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   margin-top: 10px;
@@ -287,7 +290,7 @@ body {
 }
 .opinion-container .opinion-title {
   color: #0e0e0e;
-  font-size: 40px;
+  font-size: 2.3rem;
   font-weight: 700;
   margin-top: 70px;
 }
@@ -318,7 +321,7 @@ body {
 }
 .opinion-container .opinion-sub-title p {
   color: #0e0e0e;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
   padding: 5px;
 }
@@ -379,13 +382,13 @@ td {
 }
 .recent-container h1 {
   color: #0e0e0e;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-top: 70px;
 }
 .recent-container p {
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   margin-top: 20px;
@@ -417,8 +420,7 @@ td {
 
 .recent-content .recent-right h1 {
   color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 32px;
-  font-family: Fira Sans;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 0px;
   position: absolute;
@@ -443,14 +445,14 @@ td {
 
 .recent-content .recent-right p {
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 20px;
   margin-top: 10px;
 }
 .recent-content .recent-right .recent-btn {
   color: white;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 600;
   padding: 15px 25px;
   background-color: #006a50;
@@ -473,7 +475,7 @@ td {
 }
 .donate-container h1 {
   color: #0e0e0e;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   padding: 10px;
   text-align: center;
@@ -481,7 +483,7 @@ td {
 }
 .donate-container p {
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   padding: 10px;
   margin-top: 10px;
   font-weight: 400;
@@ -521,7 +523,7 @@ td {
 }
 .donate-content .donate p {
   color: rgba(13.81, 13.81, 13.81, 0.8);
-  font-size: 35px;
+  font-size: 2.2rem;
   font-weight: 700;
   padding: 10px;
 }
@@ -547,14 +549,14 @@ td {
   width: 80%;
   text-align: center;
   color: rgba(13.81, 13.81, 13.81, 0.3);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   border: none;
 }
 
 .donate-container .input-div .btn-done {
   color: white;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 600;
   padding: 15px 30px;
   background-color: #006a50;
@@ -588,14 +590,14 @@ td {
 }
 .subscribe-container h1 {
   color: #0e0e0e;
-  font-size: 40px;
+  font-size: 2.5rem;
   padding: 10px;
   font-weight: 700;
 }
 .subscribe-container p {
   text-align: center;
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   padding: 10px;
@@ -603,7 +605,7 @@ td {
 .subscribe-container h5 {
   text-align: center;
   color: rgba(13.81, 13.81, 13.81, 0.7);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   padding: 10px;
 }
@@ -615,7 +617,7 @@ td {
 }
 .subscribe-box input {
   color: rgba(13.81, 13.81, 13.81, 0.3);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   border: none;
   width: 100%;
@@ -627,7 +629,7 @@ td {
 }
 .subscribe-box .subscribe-btn {
   color: white;
-  font-size: 17px;
+  font-size: 1.1rem;
   font-weight: 600;
   border: none;
   background-color: #006a50;
@@ -653,7 +655,7 @@ td {
 .footer-container .footer-title {
   text-align: center;
   color: #0e0e0e;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   padding: 30px;
 }
